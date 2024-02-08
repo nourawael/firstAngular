@@ -1,0 +1,56 @@
+.contactContainer {
+  background-image: url("../../assets/Images/4.jpg");
+  width: 100%;
+  background-size: contain;
+  background-repeat: repeat;
+  /* background-color: #f6f5f1; */
+  margin-top: 98px;
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContainer {
+  /* background-color: brown; */
+  width: 60%;
+  margin: 20px auto;
+}
+.formContainer input {
+  background-color: transparent;
+  /* border-color: transparent; */
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #818080;
+}
+.formContainer input:focus {
+  box-shadow: none;
+  border-bottom: 1px solid #5f9ea0;
+}
+
+.labelContainer {
+  /* position: relative; */
+  /* background-color: red; */
+  /* height: 10px; */
+  overflow: hidden;
+}
+.labelContainer label {
+  position: relative;
+  font-weight: 600;
+  /* top: 10px; */
+  top: 30px;
+  left: 0;
+  transition: all 0.5s;
+}
+.formContainer button {
+  background-color: #5f9ea0;
+  border-color: #5f9ea0;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+.formContainer button:hover {
+  background-color: black;
+  border-color: black;
+}

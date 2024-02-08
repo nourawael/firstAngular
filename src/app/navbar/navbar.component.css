@@ -1,0 +1,35 @@
+.navbarContainer {
+  /* background-color: rgba(0, 0, 0, 0.637); */
+  background-color: #5f9ea0;
+  padding: 20px 50px;
+}
+a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #f6f5f1;
+}
+.navbarContainer .navbarLogo {
+  font-size: 32px;
+  font-weight: 700;
+}
+.navbarContainer .navbarLogo:hover {
+  color: #f6f5f1;
+}
+.linksContainer a {
+  font-size: 18px;
+  font-weight: 700;
+}
+.linksContainer a:hover {
+  color: #f6f5f1;
+}
+
+.activeLink {
+  background-color: black;
+  color: #f6f5f1;
+  /* border-color: #5f9ea0; */
+  /* border: 1px solid; */
+  /* padding: 2px 5px; */
+  border-radius: 5%;
+}
+.activeLogo {
+  color: #f6f5f1;
+}

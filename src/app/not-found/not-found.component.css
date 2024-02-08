@@ -1,0 +1,14 @@
+.notFoundContainer {
+  background-image: url("../../assets/Images/4.jpg");
+  width: 100%;
+  /* min-height: 500px; */
+  /* background-position: center center; */
+  background-size: contain;
+  background-repeat: repeat;
+  margin-top: 98px;
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

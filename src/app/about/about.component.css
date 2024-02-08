@@ -1,0 +1,27 @@
+.aboutContainer {
+  background-image: url("../../assets/Images/4.jpg");
+  width: 100%;
+  /* height: 100vh; */
+  background-size: contain;
+  background-repeat: repeat;
+  margin-top: 98px;
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutContainer h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+}
+.pContainer {
+  padding: 30px 10%;
+}
+.pContainer p {
+  font-weight: 600;
+  letter-spacing: 1px;
+}

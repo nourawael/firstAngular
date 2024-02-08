@@ -1,0 +1,22 @@
+.footerTop {
+  background-color: #5f9ea0;
+  padding: 50px 50px;
+}
+.footerTop .sectionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  color: #f6f5f1;
+}
+.footerTop .sectionContainer i {
+  border: 1px solid;
+  padding: 7px;
+  border-radius: 100%;
+}
+.footerBottom {
+  background-color: black;
+  color: #f6f5f1;
+  padding: 15px;
+}

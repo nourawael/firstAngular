@@ -1,0 +1,27 @@
+.homeContainer {
+  background-image: url("../../assets/Images/4.jpg");
+  width: 100%;
+  /* min-height: 500px; */
+  /* background-position: center center; */
+  background-size: contain;
+  background-repeat: repeat;
+  margin-top: 98px;
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homeContainer h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+}
+
+.homeContainer p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

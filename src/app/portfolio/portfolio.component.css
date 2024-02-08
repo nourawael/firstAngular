@@ -1,0 +1,48 @@
+.portContainer {
+  /* background-image: url("../../assets/Images/4.jpg"); */
+  width: 100%;
+  /* background-size: contain;
+    background-repeat: repeat; */
+  background-color: #f6f5f1;
+  margin-top: 98px;
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardContainer {
+  width: 95%;
+  position: relative;
+}
+.cardContainer img {
+  width: 100%;
+  border-radius: 3%;
+}
+.imgObacity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #a0615fce;
+  /* background-color: #d0b0af; */
+  border-radius: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.cardContainer:hover .imgObacity {
+  opacity: 1;
+}
+.modalBodyContainer {
+  background-color: red;
+  padding: 0px;
+  /* border-radius: 100%; */
+}
+.modalBodyContainer img {
+  border-radius: 0%;
+}

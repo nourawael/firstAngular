@@ -1,0 +1,83 @@
+<div class="container-fluid contactContainer">
+  <div class="text-center"><h1>CONTACT COMPONENT</h1></div>
+  <div class="linesContainer">
+    <div class="line"></div>
+    <div><i class="fa-solid fa-star fa-lg"></i></div>
+    <div class="line"></div>
+  </div>
+  <div class="container">
+    <div class="formContainer">
+      <div class="formItemContainer">
+        <div class="labelContainer">
+          <label
+            class="form-label"
+            [ngStyle]="{
+              top: inputName.length > 0 ? '10px' : '30px'
+            }"
+            >Name:</label
+          >
+        </div>
+        <input
+          (keyup)="onNameInput($event)"
+          class="form-control"
+          type="text"
+          placeholder="Enter Your Name"
+        />
+      </div>
+      <div class="formItemContainer">
+        <div class="labelContainer">
+          <label
+            class="form-label"
+            [ngStyle]="{
+              top: inputAge.length > 0 ? '10px' : '30px'
+            }"
+            >Age:</label
+          >
+        </div>
+        <input
+          (keyup)="onAgeInput($event)"
+          class="form-control"
+          type="number"
+          placeholder="Enter Your Age"
+        />
+      </div>
+      <div class="formItemContainer">
+        <div class="labelContainer">
+          <label
+            class="form-label"
+            [ngStyle]="{
+              top: inputEmail.length > 0 ? '10px' : '30px'
+            }"
+            >Email:</label
+          >
+        </div>
+        <input
+          (keyup)="onEmailInput($event)"
+          class="form-control"
+          type="text"
+          placeholder="Enter Your Email"
+        />
+      </div>
+      <div class="formItemContainer">
+        <div class="labelContainer">
+          <label
+            class="form-label"
+            [ngStyle]="{
+              top: inputPassword.length > 0 ? '10px' : '30px'
+            }"
+            >Password:</label
+          >
+        </div>
+        <input
+          (keyup)="onPassInput($event)"
+          class="form-control"
+          type="password"
+          placeholder="Enter Your Password"
+        />
+      </div>
+      <div class="mt-4 text-center">
+        <button type="button" class="btn btn-primary">Send Message</button>
+      </div>
+    </div>
+  </div>
+</div>
